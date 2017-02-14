@@ -1,0 +1,200 @@
+/*================================================================================
+	Item Name: Kode
+	Description: Premium Bootstrap Admin Template
+	Author: Egemen Kapusuz
+	Author URL: http://www.themeforest.net/user/egemem
+================================================================================*/
+
+/* =================================================================================
+smaller than 1280
+================================================================================= */
+@media screen and (max-width: 1280px) {
+	.topmenu{display: none;}
+}
+
+/* =================================================================================
+smaller than 1024
+================================================================================= */
+@media screen and (max-width: 1024px) {
+	.profilebox b{
+		display: none;
+	}
+	.top-right .profilebox i {
+		display: inline-block;
+		margin-right: 3px;
+		font-size: 18px;
+	}
+	.searchform{
+		display: none;
+	}
+	.content{
+		margin-left: 0 !important;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.social-stats{
+		bottom: 100px;
+	}
+	.topstats li{
+		width: 33%;
+	}
+	.demo-sidebarmenu .sidebar{
+		display: block;
+	}
+	.panel{
+		padding: 25px 15px;
+	}
+	.sidebar-links > li > a{
+		padding: 10px 15px;
+	}
+	.page-header{
+		margin: -20px -15px 20px -15px;
+		padding: 12px 15px;
+	}
+	.footer{
+		margin-left: -15px;
+		margin-right: -15px;
+		padding: 10px 0;
+	}
+	.container-widget.dashboard .row{
+		margin-right: 0px;
+		margin-left: 0;
+	}
+	.candidateList li:nth-child(3n) {
+		margin-right: 0;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.candidateList li{
+		margin-bottom: 50px;
+		margin-right: 3%;
+		width: 22.7%;
+	}
+	.candidateList li:nth-child(4n) {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.applogo .logo{
+		font-size: 24px;
+	}
+	.sidebar-open-button span{
+		display: none;
+	}
+	.pageLogo {
+		max-width: 300px;
+	}
+	.footer .col-sm-6{
+		text-align: center !important;
+	}
+	.top-right{
+		padding-right: 15px;
+	}
+	.panel, .dashboard .panel{
+		padding: 20px 10px;
+	}
+	.panel-title{
+		padding: 16px 10px;
+		margin: -20px -10px 5px;
+	}
+	.dashboard .panel-title {
+		font-size: 13px;
+	}
+	.panel-title {
+		font-size: 14px;
+	}
+	.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter {
+		float: none;
+		text-align: center;
+	}
+	table.dataTable thead th, table.dataTable thead td{
+		padding: 14px 8px;
+	}
+	.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td{
+		padding: 13px 8px;
+	}
+	.noticeCandi{
+		margin: 5px auto;
+		max-width: 100%;
+		padding: 0 5px;
+	}
+	.form-group .fields {
+		width: 100%;
+	}
+	.form-group .fields:first-child {
+		margin: 0 0 10px;
+	}
+	.heightWidget {
+		min-height: 350px;
+	}
+	.container-widget{
+		min-height: 350px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.dataTables_wrapper .dataTables_length {
+		float: right;
+	}
+}
+
+
+/* =================================================================================
+smaller than 760
+================================================================================= */
+@media screen and (max-width: 760px) {
+	.page-header .right{display: none;}
+	.presentation .list{float: left; margin-top: 20px;}
+	.container-padding, .container-no-padding{margin-left:-40px; margin-right: -40px;}
+	.social-content{padding-left: 10px; padding-right: 10px;}
+	.chart-with-stats .top-label{right: 20px;}
+	.mailbox-menu .menu li{display: block; width: 100%; border-right:none; border-bottom: 1px solid rgba(0, 0, 0, 0.08);}
+	.chat .title{height: auto;}
+	.profile-left .btn{display: none;}
+	.topstats li{width: 50%;}
+}
+
+@media screen and (max-width: 640px) {
+	.dashboard .col-xs-6{
+		width: 100%;
+	}
+	.dashboard .panel{
+		min-height: 170px !important;
+	}
+	.candidateList{
+		margin: 0;
+	}
+	.candidateList li{
+		margin-bottom: 25px;
+		margin-right: 4%;
+		width: 48%;
+	}
+	.candidateList li:nth-child(3n){
+		margin-right: 4%;
+	}
+	.candidateList li:nth-child(2n){
+		margin-right: 0;
+	}
+}
+
+/* =================================================================================
+smaller than 428
+================================================================================= */
+@media screen and (max-width: 428px) {
+	.applogo{
+		width: 190px;
+	}
+	.topstats li{
+		width: 100%;
+	}
+	.sidebar{
+		font-size: 12px;
+		left: -100%;
+		width: 100%;
+	}
+	.applogo .logo {
+		font-size: 20px;
+	}
+}

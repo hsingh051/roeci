@@ -1,0 +1,292 @@
+*, *:before, *:after{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+a {
+  color: #5D6975;
+  text-decoration: underline;
+}
+img{
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+body {
+	background: #FFFFFF;
+	color: #000000;	
+	font-family: Arial, sans-serif; 
+	font-size: 12px; 
+	line-height: 18px;
+	position: relative;	 
+}
+
+.container{
+	margin: 0 auto;
+	width: 780px;
+}
+
+header {
+	margin-top: 70px;
+	margin-bottom: 15px;
+}
+
+.leftLogo{
+	float: left;
+	padding-right: 12px;
+	width: 90px;
+}
+.middleHeader{
+	border: 1px solid #000000;
+	float: left;
+	padding: 10px 10px 8px;
+	text-align: center;
+	width: 600px;
+}
+.rightLogo{
+	float: right;
+	padding-left: 12px;
+	width: 90px;
+}
+
+h1 {
+	color: #000000;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: bold;  
+	margin: 0 0 15px;
+	text-transform: uppercase;
+}
+h2{
+	color: #000000;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;  
+	margin: 0;
+}
+
+.bottomHdr{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.bhText{
+	border: 1px solid #000000;
+	color: #000000;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;  
+	padding: 10px 30px;
+	text-transform: uppercase;
+}
+
+.content{
+	margin-bottom: 25px;
+}
+.leftContent{
+	float: left;
+	margin-right: 10px;
+	width: 250px;
+}
+.voterPic{
+	border: 1px solid #000000;
+	margin-bottom: 22px;
+}
+
+.rightContent{
+	float: left;
+	width: 520px;
+}
+
+
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-bottom: 0;
+}
+
+.slipTable{
+	border-left: 1px solid #000000;
+	border-top: 1px solid #000000;
+}
+.slipTable td{
+	border-bottom: 1px solid #000000;
+	border-right: 1px solid #000000;
+	color: #000000;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	padding: 4px 8px;
+	vertical-align: middle;
+}
+
+
+.votingDate{
+	border: 1px solid #000000;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 15px 10px 22px;
+}
+
+.vdatePoll{
+	margin-bottom: 25px;
+}
+.vdplabel{
+	float: left;
+	width: 100px;
+}
+.vdpValue{
+	border-bottom: 1px solid #000000;
+	float: left;	
+	height: 19px;
+	width: 128px;
+}
+
+.vdtlabel{
+	float: left;
+	width: 65px;
+}
+.vdtValue{
+	border-bottom: 1px solid #000000;
+	float: left;
+	height: 19px;
+	width: 66px;
+}
+.vdtTo{
+	float: left;
+	text-align: center;
+	width: 25px;
+}
+
+.deOffice{
+	margin: 0 auto 20px;
+	width: 540px;
+}
+.deLabel{
+	float: left;
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 260px;
+}
+.deValue{
+	border-bottom: 1px solid #000000;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	height: 19px;
+	text-align: center;
+	width: 280px;
+}
+
+
+.deWebsite{
+	margin: 0 auto 70px;
+	width: 700px;
+}
+.deoWeb{
+	float: left;
+	font-size: 17px;
+	font-weight: bold;
+	width: 125px;
+}
+.deoValue{
+	border-bottom: 1px solid #000000;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	height: 19px;
+	width: 200px;
+}
+.deoHelp{
+	float: left;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	width: 160px;
+}
+
+.bpTitle{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.bpTitle h3{
+	border: 1px solid #000000;
+	color: #000000;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 35px;
+}
+
+.backMap{
+	float: left;
+	margin-right: 10px;
+	width: 385px;
+}
+.backContent{	
+	float: left;
+	width: 385px;
+}
+.backContList{
+	border: 1px solid #000000;
+	height: 435px;
+	padding: 15px 10px;
+}
+.backContList ul{
+	margin: 0;
+	padding: 0 0 5px 15px;
+}
+.backContList ul li{
+	color: #000000;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 8px;
+}
+.noVoterText{
+	font-size: 15px;
+    text-align: center;
+    font-family: cursive;
+}
+
+#mapContent{
+	width: 250px;
+}
+#mapContent h3{
+	font-size: 18px;
+    margin: 5px 0 15px;
+}
+#mapContent p{
+	color: #000000;
+    line-height: 28px;
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+.mapSee{
+	text-align: right;
+}
+.mapSee a{
+	color: #000000;
+	font-weight: 400;
+	text-decoration: none;
+}
+.mapSee a img{
+	margin-left: 3px;
+	vertical-align: top;
+}
+.pageMargins{
+	height: 480px;
+	width: 100%;
+}
